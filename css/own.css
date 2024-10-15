@@ -1,0 +1,62 @@
+/*css for Nav bar---------------------*/
+@media only screen and (min-width: 300px) {
+    /* Apply some styles */
+ 
+        a:hover{
+           /* background-color: skyblue; */
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.2s;    
+        }
+
+        .fontcolornav:hover{
+            color:blue;
+            text-decoration: underline;
+        }
+        #fontcolor:hover{
+            color:blue;
+            text-decoration: underline;
+        }
+
+        #fontcolor2:hover{
+            color:black;
+            text-decoration: underline;
+        }
+
+        a:not(:hover){
+            transition: 0.2s;
+        } 
+}
+
+
+
+/*css for card---------------------*/
+@media only screen and (max-width: 767px) {
+
+    #spacebetweencard{
+        margin-top: 15px;
+    }
+
+}
+
+
+#cardhover:hover{
+    box-shadow: 3px 6px 6px grey;
+    transform:scale(1.04);
+}
+
+#cardhover{
+  border:1px solid grey;
+  transition:0.4s;
+}
+
+/*css for the main image of the index page---------------------*/
+.bgimg:hover{
+    transform:scale(1.06);
+    transition:0.4s;
+}
+
+.bgimg:not(:hover){
+    transition: 0.4s;
+} 

@@ -1,0 +1,46 @@
+/*css for the page of courses after class 10--------------------*/
+#tenorderlist{
+    font-size: 25px;
+    font-family: Times New Roman, Times, serif;
+}
+
+.tenli:hover{
+    background-color: skyblue;
+    
+}
+
+#tdtext{
+    font-size: 30px;
+    padding-left: 30px;
+    font-family: Times New Roman, Times, serif;
+}
+
+
+#tdtext:hover{
+  
+    transform:scale(1.08);
+}
+
+#tdtext{
+
+  transition:0.4s;
+}
+
+#tdbtn{
+    width:120%;
+    font-size: 25px;
+}
+
+
+/* coding for scrolling window */
+body {
+    position: relative;
+  }
+  ul.nav-pills {
+    
+    position: fixed;
+  }
+  div.col-md-8 div {
+    height: auto;
+    border-bottom: 1px solid skyblue;
+  }
